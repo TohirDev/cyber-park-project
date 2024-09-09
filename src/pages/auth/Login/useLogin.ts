@@ -32,7 +32,7 @@ export const useLogin = () => {
         setLoading(false);
       }
     },
-    []
+    [setUser]
   );
   return { form, onSubmit, loading };
 };
